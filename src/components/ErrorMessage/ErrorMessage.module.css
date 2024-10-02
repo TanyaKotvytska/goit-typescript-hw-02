@@ -1,0 +1,18 @@
+.error {
+    color: #ffffff;
+    background-color: #e74c3c;
+    border: 1px solid #c0392b;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.error::before {
+    content: "❌";
+    margin-right: 10px;
+    font-size: 20px;
+}
